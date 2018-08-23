@@ -7,15 +7,17 @@
   ],
   "author": "Benoit Schweblin",
   "contributors": [],
-  "dependencies": [
-    "express",
-    "body-parser",
-    "ssh2"
-  ],
+  "dependencies": {
+    "express" : "4.16.3",
+    "body-parser" : "1.18.3",
+    "ssh2" : "0.6.1"
+  },
   "engines": {
     "node": "0.10.x"
   },
   "lib": ".",
   "main": "index",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "repository": "https://github.com/441309952/staclEdit-proxy.git",
+  "license": "MIT"
 }
